@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Anjali's Poetry Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style01.css" />
-        <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </head>
+<head>
+    <title>Anjali's Poetry Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/000/552/374/large_2x/autumn-maple-leaf-vector-logo.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
+</head>
 
-
-    <body class="index" >
+<body class="index">
+    <div class="main">
         <!-- initial welcome page -->
         <div class="welcome">
-
-
             <!-- welcome message -->
             <div class="quoteDiv">
                 <section id="welcomeQuote">
-                    <a href="./menu.html">
-                        << Welcome to my Poetry Collection <i class="fa fa-mouse-pointer" style="font-size:48px;color:white"></i> >>
-                        
+                    <a href="./menu.html" style="font-family:Parisienne ;" class="author-contact">
+                        Welcome to my Poetry Collection <i class="fa fa-mouse-pointer"
+                            style="font-size:48px;color:white"></i>
                     </a>
                 </section>
             </div>
@@ -29,9 +31,14 @@
             <div>
                 <img id="circle" src="./images/crop-fit.png">
             </div>
-
         </div>
+    </div>
 
+    <!-- for gradient -->
+    <div class="gradient"></div>
 
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>

@@ -1,127 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Anjali's Poetry Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styleCollect.css" />
-        <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
 
-    </head>
+<head>
+    <title>Anjali's Poetry Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/000/552/374/large_2x/autumn-maple-leaf-vector-logo.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
 
+    <style>
+        @media screen and (max-width:700px) {
+            .gradient {
+                height: 380%;
+            }
+        }
+    </style>
+</head>
 
-    <body class="index" >
-        <!-- initial welcome page -->
-        <div class="welcome">
+<body class="index">
 
-
-            <!-- welcome message -->
-            <div class="NameDiv">
-                <section id="authorName">
-                        << Move your cursor over the cards displayed below to read! >>
-                </section>
-            </div>
-
-        </div>
-
-
-        <div class="scroll">
-            <!-- 01 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/1-1.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/my-eyes.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 02 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/2.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/once-again.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 03 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/3.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/life-will-give-you.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 04 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/4.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/am-i-alone.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 05 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/5.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/a-moment-ago.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 06 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/6.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/the-fire.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 07 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/7.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/fame.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-            <!-- 08 -->
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="./canva/8.png" alt="Avatar" style="width:300px;height:300px;">
-                    </div>
-                    <div class="flip-card-back" style="background-image: url('./back/who-am-i.jpg');">
-                    </div> 
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-
+    <div class="main">
         <div class="collectNav">
             <!-- navigation toolbar -->
             <nav class="nav">
+                <a href="https://www.instagram.com/maple__ink/">
+                    <h1 class="brand" style="color:white ;">Maple Ink</h1>
+                </a>
+
                 <ul class="nav-ul">
                     <li id="firstLI">
                         <a href="./menu.html">Home</a>
@@ -129,7 +37,7 @@
                     <li>
                         <a href="./author.html">Author</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="./collection.html">Collection</a>
                     </li>
                     <li id="lastLI">
@@ -139,8 +47,117 @@
             </nav>
         </div>
 
-        
+        <!-- initial welcome page -->
+        <div class="welcome">
+            <!-- welcome message -->
+            <div class="NameDiv">
+                <section id="authorName" style="margin-top: 50px;">
+                    Hover over the cards to read!
+                </section>
+            </div>
+        </div>
 
+        <center>
+            <div class="scroll" style="margin-left:100px ;">
+                <div class="all-cards">
+                    <!-- 01 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/1-1.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/my-eyes.jpg');">
+                            </div>
+                        </div>
+                    </div>
 
-    </body>
+                    <!-- 02 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/2.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/once-again.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 03 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/3.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/life-will-give-you.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 04 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/4.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/am-i-alone.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 05 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/5.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/a-moment-ago.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 06 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/6.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/the-fire.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 07 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/7.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/fame.jpg');">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 08 -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./canva/8.png" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back" style="background-image: url('./back/who-am-i.jpg');">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <br><br>
+    </div>
+
+    <!-- for gradient -->
+    <div class="gradient"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>

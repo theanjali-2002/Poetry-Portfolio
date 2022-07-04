@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Anjali's Poetry Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style01.css" />
-        <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
 
-    </head>
+<head>
+    <title>Anjali's Poetry Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/000/552/374/large_2x/autumn-maple-leaf-vector-logo.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
+</head>
 
+<body class="index">
+    <div class="main">
+        <!-- navigation toolbar -->
+        <nav class="nav">
+            <a href="https://www.instagram.com/maple__ink/">
+                <h1 class="brand" style="color:white ;">Maple Ink</h1>
+            </a>
 
-    <body class="index" >
+            <ul class="nav-ul">
+                <li id="firstLI">
+                    <a href="./menu.html">Home</a>
+                </li>
+                <li class="active">
+                    <a href="./author.html">Author</a>
+                </li>
+                <li>
+                    <a href="./collection.html">Collection</a>
+                </li>
+                <li id="lastLI">
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
         <!-- initial welcome page -->
         <div class="welcome">
 
-
             <!-- welcome message -->
             <div class="NameDiv">
-                <section id="authorName">
-                        << Anjali Patel >>
+                <section id="authorName" style="
+            margin-top:50px;
+        ">
+                    <a href="https://www.instagram.com/theanjali_2002/" style="color:#fff">
+                        Anjali Patel
+                    </a>
                 </section>
             </div>
 
@@ -29,7 +58,9 @@
 
                     My name is Anjali, and I'm a Computer Science student who is in love with Arts. <br>
                     For me, Art is a language of skills for living life. <br>
-                    Whether it is expressing your emotions or reading other's mind, Art plays a crucial role and I strongly believe in it.<br>
+                    Whether it is expressing your emotions or reading other's mind, Art plays a crucial role and I
+                    strongly
+                    believe in it.<br>
                     <br>
 
                     Moreover, I'm not just an artist existing on this earth but I also have a lot of hobbies. <br>
@@ -37,32 +68,19 @@
                     <br>
 
                     Curious about what else I do? <br>
-                    Check out my personal portfolio linked in the <a href="./contact.html"> <u>Contact</u></a> section!<br>
+                    Check out my personal portfolio linked in the <a href="./contact.html" class="author-contact">
+                        <u>Contact </u></a>&nbsp;section!<br>
                 </p>
             </div>
-
-
-
-            <!-- navigation toolbar -->
-            <nav class="nav">
-                <ul class="nav-ul">
-                    <li id="firstLI">
-                        <a href="./menu.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./author.html">Author</a>
-                    </li>
-                    <li>
-                        <a href="./collection.html">Collection</a>
-                    </li>
-                    <li id="lastLI">
-                        <a href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
         </div>
+    </div>
 
+    <!-- for gradient -->
+    <div class="gradient"></div>
 
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js">
+    </script>
+</body>
+
 </html>

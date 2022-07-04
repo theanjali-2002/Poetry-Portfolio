@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Anjali's Poetry Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style01.css" />
-        <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    </head>
+<head>
+    <title>Anjali's Poetry Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon"
+        href="https://static.vecteezy.com/system/resources/previews/000/552/374/large_2x/autumn-maple-leaf-vector-logo.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
+</head>
 
+<body class="index">
+    <div class="main">
+        <!-- navigation toolbar -->
+        <nav class="nav">
+            <a href="https://www.instagram.com/maple__ink/">
+                <h1 class="brand">Maple Ink</h1>
+            </a>
+            <ul class="nav-ul">
+                <li id="firstLI">
+                    <a href="./menu.html">Home</a>
+                </li>
+                <li>
+                    <a href="./author.html">Author</a>
+                </li>
+                <li>
+                    <a href="./collection.html">Collection</a>
+                </li>
+                <li id="lastLI" class="active">
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-    <body class="index" >
         <!-- initial welcome page -->
-        <div class="welcome">
-
+        <div class="welcome" style="margin-top:100px ;">
 
             <!-- welcome message -->
             <div class="NameDiv">
-                <section id="authorName">
-                        << Reach out to me... >>
+                <section id="authorName" style="padding-top: 0px;">
+                    Reach out to me...
                 </section>
             </div>
 
@@ -28,19 +52,23 @@
                 <ul class="contact">
                     <li>
                         <i class="fa fa-envelope" style="font-size:48px;color:rgb(255, 255, 255)"></i>
-                        <a href="mapleink2020@gmail.com" target="_blank"> <span>mapleink2020@gmail.com</span> </a>
-                    </li> 
-                        <br>
+                        <a href="mailto:mapleink2020@gmail.com" target="_blank" style="color: #fff;">
+                            <span>mapleink2020@gmail.com</span>
+                        </a>
+                    </li>
+                    <br>
                     <li>
                         <i class="fa fa-instagram" style="font-size:48px;color:white"></i>
-                        <a href="https://www.instagram.com/maple__ink/" target="_blank"> <span>@Maple__Ink</span> </a>
+                        <a href="https://www.instagram.com/maple__ink/" target="_blank">
+                            <span>@maple__ink</span> </a>
                     </li>
-                        <br>
+                    <br>
                     <li>
                         <i class="fa fa-linkedin-square" style="font-size:48px;color:white"></i>
-                        <a href="https://www.linkedin.com/in/anjali-patel-3966b41a1/" target="_blank"> <span>Anjali Patel</span> </a>
+                        <a href="https://www.linkedin.com/in/anjali-patel-3966b41a1/" target="_blank"> <span>Anjali
+                                Patel</span> </a>
                     </li>
-                        <br>
+                    <br>
                     <!-- <li>
                         <i class="fa fa-github" style="font-size:48px;color:white"></i>
                         <a href="https://github.com/theanjali-2002"> <span>theanjali-2002</span> </a>
@@ -48,29 +76,14 @@
                         <br> -->
                 </ul>
             </div>
-
-
-
-            <!-- navigation toolbar -->
-            <nav class="nav">
-                <ul class="nav-ul">
-                    <li id="firstLI">
-                        <a href="./menu.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./author.html">Author</a>
-                    </li>
-                    <li>
-                        <a href="./collection.html">Collection</a>
-                    </li>
-                    <li id="lastLI">
-                        <a href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
         </div>
+    </div>
 
+    <!-- for gradient -->
+    <div class="gradient"></div>
 
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>
